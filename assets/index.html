@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concierto Eminem</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <!-- link favicon (para poner el logo) -->
+    <link rel="shortcut icon" href="./image/rock-and-roll.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Barra de navegación  -->
+    <header>
+        <nav>
+            <ul>
+                <img src="./image/Eminem-Simbolo.png" alt="">
+                <li><a href="#artista">Artista</a></li>
+                <li><a href="#musica">Música</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#lugar">Lugar</a></li>
+                <li><a href="#boleteria">Boletería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <div class="search">
+                    <input type="search" placeholder="Buscar...">
+                </div>
+            </ul>
+            <!-- placeholder para el texto dentro del buscador -->
+        </nav>
+    </header>
+    <!-- Fin barra navegacion  -->
+    <br><br>
+    <!-- informacion de artista  -->
+    <section class="info-artista" id="artista">
+        <div class="content">
+            <h1>Eminem</h1>
+            <p>Marshall Bruce Mathers III, conocido artísticamente como Eminem, es un rapero, productor y actor estadounidense. Se le atribuye la popularización del hip hop y es aclamado por la crítica como uno de los mejores raperos de todos los tiempos.​ </p>
+            <h2>Videos</h2>
+            <div class="video">
+                <iframe width="560" height="315" src="./video/videoEminem.mp4" title="Video Eminem" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <br> <br> <br>
+    <hr>
+
+    <!-- musica  -->
+    <section class="audio-musica" id="musica">
+        <div class="content-principal">
+            <h2>Música</h2>
+            <div class="music-layer">
+                <audio src="./audio/Eminem - The Real Slim Shady (Official Video - Clean Version) - EminemVEVO (youtube).mp3" controls></audio>
+            </div>
+        </div>
+    </section>
+
+    <br> <br>
+    <hr>
+
+    <!-- las tres imagenes  -->
+    <section class="content-images" id="galeria">
+        <h2>Galería de imagenes</h2>
+        <div class="imagenes">
+            <div class="card">
+                <img src="./image/frases-eminem-wide_webp.webp" alt="">
+            </div>
+
+            <div class="card">
+                <img src="./image/eminem-slim-shady-foto-especial.jpg" alt="">
+            </div>
+
+            
+            <div class="card">
+                <img src="./image/eminem1.jpeg" alt="" >
+            </div>
+        </div>
+    </section>
+
+    <br><br><br>
+    <hr>
+
+    <!-- informacion del lugar  -->
+    <section class="place-info" id="lugar">
+        <h2>Información del lugar</h2>
+        <p>El concierto se realizará en el atanasio girardot, Medellín</p>
+        <h3>¿Como llegar?</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3134.6276853573254!2d-75.59274782627203!3d6.2567723262080595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44290e4f870f69%3A0xf57f97b59ef52c39!2sEstadio%20de%20F%C3%BAtbol%20Atanasio%20Girardot!5e1!3m2!1ses-419!2sco!4v1729707532662!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+    </section>
+
+    <br><br>
+    <hr>
+
+    <!-- Precios de boleteria  -->
+    <section id="boleteria">
+        <h2>Información de boleteria</h2>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>Sector</th>
+                    <th>Precios</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>VIP</td>
+                    <td>$200.000 COP</td>
+                </tr>
+                <tr>
+                    <td>Preferencial</td>
+                    <td>$150.000 COP</td>
+                </tr>
+                <tr>
+                    <td>General</td>
+                    <td>$100.000 COP</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- Fin de precios de boleteria  -->
+
+    <br><br><br>
+    <hr>
+    
+    <!-- Contacto -->
+
+    <section class="contacto" id="contacto">
+        <h2> Contacto</h2>
+        <form action="">
+            <label for="nombre">Nombre:</label>
+            <input type=" text" name="nombre" required>
+            <label for="correo">Correo Electrónico:</label>
+            <input type="text" name="correo" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="" ></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <!-- fin de contacto  -->
+    <br><br> 
+    
+    <!-- pie de pagina  -->
+    <footer>
+       
+        <div>
+            <a href="https://www.facebook.com/eminem/?locale=es_LA" target="_blank"><img src="./image/Facebook-f_Logo-Blue-Logo.wine.svg" alt=""></a>
+            <!-- target es para que no redireccione la pagina, si no que se abra otra -->
+            <a href="https://www.instagram.com/eminem/" target="_blank"><img src="./image/Instagram-Logo.wine.svg" alt=""></a>
+             <!-- target es para que no redireccione la pagina, si no que se abra otra -->
+            <a href="https://x.com/Eminem?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"> <img src="./image/twitter.png" alt="" ></a>
+             <!-- target es para que no redireccione la pagina, si no que se abra otra -->
+            <a href="#"><img src="./image/icons8-whatsapp.svg" alt=""></a>
+
+        </div>
+        <p> &copy; 2024 Concierto Atanasio Giradot. Todos los derechos reservados  </p>
+    </footer>
+    <!-- fin de pie de pagina  -->
+
+
+</body>
+</html>
